@@ -1,0 +1,33 @@
+{
+  "name": "cafeparral",
+  "version": "1.0.0",
+  "description": "Webpage for Cafe Parral, a traditional restorant at Parral, Chihuahua, MX.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosprietobarron/cafeparral.git"
+  },
+  "keywords": [
+    "javscript",
+    "bootstrap",
+    "4."
+  ],
+  "author": "Carlos Prieto Barrón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosprietobarron/cafeparral/issues"
+  },
+  "homepage": "https://github.com/carlosprietobarron/cafeparral#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
