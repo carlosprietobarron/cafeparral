@@ -10,12 +10,6 @@
     },
     "extends": ["airbnb-base"],
     "rules": {
-      "prefer-const": "off",
-      "func-names": "off",
-      "no-undef": "off",
-      "no-unused-vars": "off",
-      "max-len": "off",
-      "no-alert": "off",
       "no-shadow": "off",
       "no-param-reassign": "off",
       "eol-last": "off",
