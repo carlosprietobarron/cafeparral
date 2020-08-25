@@ -31,6 +31,7 @@ const drawMenu = (function () {
         const carli = document.createElement("li");
         carli.setAttribute("class", "list-group-item");
         carli.textContent = item.getPrice();
+        carUl.appendChild(carli);
         const carBody2 = document.createElement("div");
         carBody2.setAttribute("class", "card-body");
         carDiv.appendChild(carBody2);
