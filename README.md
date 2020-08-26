@@ -2,6 +2,8 @@
 
 > Parral Cafe it's a fictional restaurant which speciality are hamburguers, this is the restaurant page developed completetly in Javascript and css.
 
+![screenshot](./screenshot.png)
+
 ## Built With
 
 - HTML
