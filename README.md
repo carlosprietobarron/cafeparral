@@ -1,6 +1,6 @@
-# TIC-TAC-TOE (Javascript)
+# PARRAL, Cafe and Grill Page
 
-> This app is a functional TIC-TAC-TOE game, developed fully on javascript.
+> Parral Cafe it's a fictional restaurant which speciality are hamburguers, this is the restaurant page developed completetly in Javascript and css.
 
 ## Built With
 
@@ -17,12 +17,6 @@
 👤 Carlos Prieto Barron
 
 - Github: [@carlosprietobarron](https://github.com/carlosprietobarron)
-
-👤 Andres Felipe Perez Restrepo
-
-- [LinkedIn](https://www.linkedin.com/in/andres-felipe-perez-restrepo/)
--  Github: [@queeksm](https://github.com/queeksm)
-
 
 ## 🤝 Contributing
 
