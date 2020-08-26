@@ -29,14 +29,14 @@ const menu = (function () {
   const menuItems = [];
 
   function seedMenu() {
-    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', '../imag/cardImgHam.png'));
-    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', '../imag/cardImgHam.png'));
-    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', '../imag/cardImgHam.png'));
-    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', '../imag/cardImgHam.png'));
-    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', '../imag/cardImgHam.png'));
-    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', '../imag/cardImgHam.png'));
-    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', '../imag/cardImgHam.png'));
-    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', '../imag/cardImgHam.png'));
+    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', './imag/cardImgHam.png'));
+    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', './imag/cardImgHam.png'));
+    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', './imag/cardImgHam.png'));
+    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', './imag/cardImgHam.png'));
+    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', './imag/cardImgHam.png'));
+    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', './imag/cardImgHam.png'));
+    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', './imag/cardImgHam.png'));
+    menuItems.push(new Speciality('Parral Ham', '$ 4.95', 'Deliciius half pound grilled mea', './imag/cardImgHam.png'));
   }
 
   function displayMenu(parent) {
