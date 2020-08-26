@@ -40,6 +40,7 @@ const contact = (function contacto() {
     const adressText = document.createElement('p');
     adressText.setAttribute('class', 'card-text adress-text');
     adressText.textContent = 'Zaragoza ave. #75, Colonia Centro. Parral, Chihuahua, MX.';
+    adressDiv.appendChild(adressText);
 
     const mediaRow2 = document.createElement('div');
     mediaRow2.setAttribute('class', 'row');
@@ -156,6 +157,12 @@ const contact = (function contacto() {
     input3.setAttribute('id', 'FormControlTextarea1');
     input3.setAttribute('rows', '3');
     group3.appendChild(input3);
+
+    const btnsbm = document.createElement('button');
+    btnsbm.setAttribute('class', 'btn btn-primary');
+    btnsbm.setAttribute('type', 'submit');
+    btnsbm.textContent = 'Submit';
+    formdiv.appendChild(btnsbm);
   }
 
   return { putForm };

@@ -1,6 +1,6 @@
-import { speciality, menu } from './menu';
+import { menu } from './menu';
 
-const drawMenu = (function () {
+const drawMenu = (function putmnu() {
   function putMenuItem(item, parent) {
     const colDiv = document.createElement('div');
     colDiv.setAttribute('class', 'col-lg-3 col-md-4 col-sm-5');
@@ -22,7 +22,7 @@ const drawMenu = (function () {
     carBody.appendChild(carItemName);
     const carText = document.createElement('p');
     carText.setAttribute('class', 'card-text');
-    carText.textContent = item.getDescription(); 7;
+    carText.textContent = item.getDescription();
     carBody.appendChild(carText);
     const carUl = document.createElement('ul');
     carUl.setAttribute('class', 'list-group list-group-flush');

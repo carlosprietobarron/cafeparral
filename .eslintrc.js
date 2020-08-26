@@ -16,6 +16,7 @@ module.exports = {
     "eol-last": "off",
     "arrow-parens": "off",
     "linebreak-style": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "import/no-cycle": "off"
   },
 };

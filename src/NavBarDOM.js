@@ -1,4 +1,4 @@
-const navBarDom = (function () {
+const navBarDom = (function nvbar() {
   function createNav(parent) {
     const NavBar = document.createElement('nav');
     NavBar.setAttribute('class', 'navbar navbar-dark fixed-top');
@@ -29,7 +29,7 @@ const navBarDom = (function () {
     anchor3.setAttribute('href', '#contact-tab');
     anchor3.setAttribute('role', 'tab');
     anchor3.setAttribute('data-toggle', 'tab');
-    anchor3.textContent = 'Menu';
+    anchor3.textContent = 'Conctact us';
     navTabs.appendChild(anchor3);
   }
 

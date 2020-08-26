@@ -1,4 +1,4 @@
-const tabcontent = (function () {
+const tabcontent = (function tbCont() {
   function createTabs(parent) {
     const tabContent = document.createElement('div');
     tabContent.setAttribute('class', 'tab-content');
