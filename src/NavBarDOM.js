@@ -31,6 +31,17 @@ const navBarDom = (function nvbar() {
     anchor3.setAttribute('data-toggle', 'tab');
     anchor3.textContent = 'Conctact us';
     navTabs.appendChild(anchor3);
+
+    const logoCandas = document.createElement("a");
+    logoCandas.setAttribute("class","navbar-brand");
+    logoCandas.setAttribute("href","#");
+    NavBar.appendChild(logoCandas);
+    
+    const imgLogo = document.createElement("img");
+    imgLogo.setAttribute("src","./imag/logo.png");
+    logoCandas.appendChild(imgLogo);
+    
+
   }
 
   return { createNav };
