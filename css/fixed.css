@@ -1,7 +1,7 @@
-.row, 
+.row,
 .container-fluid {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .video-wrap {
@@ -23,7 +23,7 @@
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   will-change: transform;
   z-index: -1000;
 }

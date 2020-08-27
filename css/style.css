@@ -36,10 +36,10 @@ body {
   background-color: #00000052;
 }
 
-.card-columns
+.card-columns,
 .card {
-	display: inline-block;
-	width: max-content ;
+  display: inline-block;
+  width: max-content;
 }
 
 .card-img-top {
@@ -87,7 +87,6 @@ body {
   background-color: #0b3a55;
 }
 
-
 .icon-link {
   font-size: 3rem;
   color: rgba(34, 94, 157, 0.82);
@@ -113,7 +112,6 @@ body {
   align-content: space-between;
   justify-content: space-around;
 }
-
 
 .ico-wrapper {
   width: 25%;
