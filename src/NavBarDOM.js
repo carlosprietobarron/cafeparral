@@ -1,11 +1,6 @@
 import { tabcontent } from './tabContentDOM';
-import logoImg from '../imag/logo.png';
 
 const navBarDom = (function nvbar() {
-  function loadHome(evt) {
-
-  }
-
   function createNav(parent) {
     const NavBar = document.createElement('nav');
     NavBar.setAttribute('class', 'navbar navbar-dark fixed-top');
@@ -19,21 +14,21 @@ const navBarDom = (function nvbar() {
     anchor1.setAttribute('class', 'nav-link');
     anchor1.setAttribute('href', '#home');
     anchor1.textContent = 'Home';
-    anchor1.onclick=tabcontent.createTabHome;
+    anchor1.onclick = tabcontent.createTabHome;
     navTabs.appendChild(anchor1);
 
     const anchor2 = document.createElement('a');
     anchor2.setAttribute('class', 'nav-link');
     anchor2.setAttribute('href', '#menu-tab');
     anchor2.textContent = 'Menu';
-    anchor2.onclick=tabcontent.createTabMenu;
+    anchor2.onclick = tabcontent.createTabMenu;
     navTabs.appendChild(anchor2);
 
     const anchor3 = document.createElement('a');
     anchor3.setAttribute('class', 'nav-link');
     anchor3.setAttribute('href', '#contact-tab');
     anchor3.textContent = 'Conctact us';
-    anchor3.onclick=tabcontent.createTabContact;
+    anchor3.onclick = tabcontent.createTabContact;
     navTabs.appendChild(anchor3);
 
     const logoCandas = document.createElement('a');
@@ -43,7 +38,7 @@ const navBarDom = (function nvbar() {
 
     const imgLogo = document.createElement('img');
     imgLogo.setAttribute('src', '../imag/logo.png');
-    //imgLogo.src = logoImg;
+    // imgLogo.src = logoImg;
     logoCandas.appendChild(imgLogo);
 
     tabcontent.createTabDisplay(parent);
