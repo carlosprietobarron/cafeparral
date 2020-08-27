@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: 'Open sans','lato', sans-serif;
+  font-family: 'Open sans', 'lato', sans-serif;
   font-size: 10px;
 }
 
@@ -24,6 +24,7 @@ body {
   font-family: 'Baloo Tamma 2', cursive;
   font-size: xx-large;
 }
+
 .dish-card {
   width: max-content;
   margin: 2rem 0;
@@ -35,10 +36,12 @@ body {
   background-color: #00000052;
 }
 
-.card-columns .card {
+.card-columns
+.card {
 	display: inline-block;
 	width: max-content ;
 }
+
 .card-img-top {
   width: 17rem;
   height: 11rem;
@@ -54,18 +57,18 @@ body {
 }
 
 .col-md-8 h1 {
-    font-size: 2.4rem;
-  }
+  font-size: 2.4rem;
+}
 
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
-  padding: .6rem 1.2rem;
+  padding: 0.6rem 1.2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
+  border-color: #1ebba3;
+  background-color: #1ebba3;
   color: white;
 }
 
