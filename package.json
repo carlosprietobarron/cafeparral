@@ -24,10 +24,13 @@
   },
   "homepage": "https://github.com/carlosprietobarron/cafeparral#readme",
   "devDependencies": {
+    "css-loader": "^4.2.2",
     "eslint": "^7.7.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-react": "^7.20.6",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },

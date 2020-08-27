@@ -19,7 +19,7 @@ const landing = (function land() {
     videoFile.autoplay = true;
     videoFile.loop = true;
     videoFile.muted = true;
-    videoFile.src = './imag/grill.mp4';
+    videoFile.src = '../imag/grill.mp4';
     videoEle.appendChild(videoFile);
   }
 

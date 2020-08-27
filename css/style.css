@@ -5,11 +5,14 @@ body {
   font-size: 10px;
 }
 
+/*============= project SECTION =============*/
 
+#tab-content {
+  margin-top: 55px;
+}
 
-/*============= COURSE SECTION =============*/
 .menu-section {
-  background-image: linear-gradient(#0606267a, #311d1d91), url("../../imag/bgimage.png");
+  background-image: linear-gradient(#0b3a55d2, #e98d8d91);
   min-width: 100vw;
   min-height: 100vh;
   background-size: cover;
@@ -110,7 +113,7 @@ body {
   align-content: space-between;
   justify-content: space-around;
 }
-}
+
 
 .ico-wrapper {
   width: 25%;

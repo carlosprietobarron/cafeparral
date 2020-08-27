@@ -10,21 +10,9 @@ const pageLoader = (function ld() {
     const parentAll = document.getElementById('content');
 
     navBarDom.createNav(parentAll);
-    tabcontent.createTabs(parentAll);
+    //tabcontent.createTabs(parentAll);
 
-    const parentLanding = document.getElementById('home');
-
-    landing.putBackgr(parentLanding);
-
-    landing.putPresentation(parentLanding);
-
-    const parentContact = document.getElementById('contact-tab');
-
-    contact.putForm(parentContact);
-
-    drawMenu.addPanelMenu();
-
-    videoLooper.videoEndListener();
+    
   }
 
   return { pageLoad };
