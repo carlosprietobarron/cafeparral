@@ -1,0 +1,42 @@
+{
+  "name": "cafeparral",
+  "version": "1.0.0",
+  "description": "Webpage for Cafe Parral, a traditional restorant at Parral, Chihuahua, MX.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosprietobarron/cafeparral.git"
+  },
+  "keywords": [
+    "javscript",
+    "bootstrap",
+    "4."
+  ],
+  "author": "Carlos Prieto Barrón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosprietobarron/cafeparral/issues"
+  },
+  "homepage": "https://github.com/carlosprietobarron/cafeparral#readme",
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-react": "^7.20.6",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
