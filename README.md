@@ -16,9 +16,9 @@
 
 ## Authors
 
-👤 Carlos Prieto Barron
-
 - Github: [@carlosprietobarron](https://github.com/carlosprietobarron)
+- Linkedin: [Carlos Prieto](https://www.linkedin.com/in/carlosprietobarron/)
+- Email: [Carlos Prieto Barrón](carloprietobarron@outlook.com)
 
 ## 🤝 Contributing
 
