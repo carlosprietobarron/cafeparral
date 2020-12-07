@@ -1,5 +1,5 @@
 import { tabcontent } from './tabContentDOM';
-import  logopng from '../imag/logo.png'
+import logopng from '../imag/logo.png';
 
 const navBarDom = (function nvbar() {
   function createNav(parent) {
@@ -39,7 +39,7 @@ const navBarDom = (function nvbar() {
 
     const imgLogo = document.createElement('img');
     imgLogo.src = logopng;
-    //imgLogo.setAttribute('src', '../imag/logo.png');
+    // imgLogo.setAttribute('src', '../imag/logo.png');
     // imgLogo.src = logoImg;
     logoCandas.appendChild(imgLogo);
 
